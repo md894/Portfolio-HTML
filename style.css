@@ -17,12 +17,12 @@
 
 .left-block {
     display: flex;
-    align-items: center; /* Вертикальное выравнивание элементов */
+    align-items: center; /*вертикальное выравнивание элементов*/
 }
 
 .right-block {
     display: flex;
-    align-items: center; /* Вертикальное выравнивание элементов */
+    align-items: center; /*вертикальное выравнивание элементов*/
 }
 
 
@@ -31,13 +31,13 @@ ul.menu {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 20px; /* Расстояние между элементами меню */
+    gap: 20px; /*расстояние между элементами меню*/
 }
 
 .right-block a {
     color: white;
     text-decoration: none;
-    margin-left: 20px; /* Отступы между ссылками */
+    margin-left: 20px; /*отступы между ссылками*/
 }
 
 
@@ -55,34 +55,34 @@ ul.menu {
   }
 
 .portfolio-container {
-    display: flex;              /* Расположить фото и текст рядом */
-    align-items: center;        /* Вертикальное выравнивание по центру */
-    margin-left: 20%;           /* Сместить контейнер немного слева */
-    margin-top: 50px;           /* Отступ сверху */
+    display: flex;              /*расположить фото и текст рядом*/
+    align-items: center;        /*вертикальное выравнивание по центру*/
+    margin-left: 20%;           /*сместить контейнер немного слева*/
+    margin-top: 50px;           /*отступ сверху*/
 }
 
 .portfolio_foto {
-    width: 350px;               /* Маленькая ширина фото */
-    height: 350px;              /* Маленькая высота фото */
-    object-fit: cover;          /* Обрезка фото, чтобы оно оставалось квадратным */
-    border-radius: 190px;        /* Небольшое закругление углов */
-    border: 5px solid #070505;     /* Рамка для изображения */
-    margin-right: 20px;         /* Отступ справа от фото до текста */
+    width: 350px;               /*маленькая ширина фото*/
+    height: 350px;              /*маленькая высота фото*/
+    object-fit: cover;          /*обрезка фото, чтобы оно оставалось квадратным*/
+    border-radius: 190px;        /*небольшое закругление углов*/
+    border: 5px solid #070505;     /*рамка для изображения*/
+    margin-right: 20px;         /*отступ справа от фото до текста*/
 }
 
 .portfolio-info {
-    text-align: left;           /* Текст рядом с фото */
+    text-align: left;           /*текст рядом с фото*/
 }
 
 .background {
-    background-color: #f0f0f0;  /* Фон страницы */
+    background-color: #f0f0f0;  /*фон страницы*/
     padding: 10px;
-    height: 100vh;              /* Высота страницы */
+    height: 100vh;              /*высота страницы*/
 }
 
 .content-container {
-    margin-left: 55%;           /* Сместить весь контент немного слева */
-    margin-top: 160px;           /* Отступ сверху */
+    margin-left: 55%;           /*сместить весь контент немного слева*/
+    margin-top: 160px;           /*отступ сверху*/
 }
 
 h1, h2, p {
@@ -91,8 +91,8 @@ h1, h2, p {
 h1 {
     font-size: 75px;
     color: #0c0c0c;
-    letter-spacing: 2px;        /* Расстояние между буквами */
-    margin-top: 20px;           /* Отступ сверху */
+    letter-spacing: 2px;        /*расстояние между буквами*/
+    margin-top: 20px;           /*Отступ сверху*/
     margin-left: 0px;
 }
 
@@ -125,7 +125,7 @@ ul.menu li {
 
 ul.menu li a {
     font-style: italic;
-    font-size: 30px;   /* Увеличенный размер шрифта для меню */
+    font-size: 30px;   /*Увеличенный размер шрифта для меню */
     color: #f7f4ef;
     text-decoration: none;
     padding: 10px 15px;
@@ -150,4 +150,14 @@ ul.menu li a {
     ul.menu li a {
         font-size: 18px;
     }
+}
+/* Стили для элемента <article> и текста в нем */
+article {
+    margin-left: 20px; /* Сместить текст немного от левого края */
+}
+
+article p {
+    margin: 20px 0; /* Отступы сверху и снизу */
+    line-height: 1.6; /* Междустрочный интервал */
+    color: #000000;
 }
