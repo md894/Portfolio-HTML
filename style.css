@@ -42,23 +42,38 @@ ul.menu {
 
 
 .background {
+    background-color: #f0f0f0;  /*фон страницы*/
     background-image: url('assets/JPG/portfolio_background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    background-attachment: fixed;
+    min-height: 100vh;              /*высота страницы*/
     width: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    padding: 5px;
   }
 
-.portfolio-container {
-    display: flex;              /*расположить фото и текст рядом*/
-    align-items: center;        /*вертикальное выравнивание по центру*/
-    margin-left: 20%;           /*сместить контейнер немного слева*/
-    margin-top: 50px;           /*отступ сверху*/
+  .content-container {
+    display: flex;
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+    margin-left: 100px;      /* Отступ слева */
+    margin-top: 250px;
+}
+
+.profile-text {
+    max-width: 500px;
+    margin-right: 20px; /* Отступ справа от текста до фотографии и информации */
+    text-align: left;   /* Выравнивание текста по левому краю */
+    font-size: 26px;
+    
+}
+
+   .profile {
+    display: flex;                 /* включаем flex для контейнера */
+    flex-direction: column;        /* текст под фото */
+    align-items: flex-start;           /* центрируем элементы по горизонтали */
+    margin-left: 100px;             /* сместим блок немного от левого края */
+    margin-top: -150px;
 }
 
 .portfolio_foto {
@@ -66,24 +81,16 @@ ul.menu {
     height: 350px;              /*маленькая высота фото*/
     object-fit: cover;          /*обрезка фото, чтобы оно оставалось квадратным*/
     border-radius: 190px;        /*небольшое закругление углов*/
-    border: 5px solid #070505;     /*рамка для изображения*/
-    margin-right: 20px;         /*отступ справа от фото до текста*/
+    border: 5px solid #070505; /*рамка для изображения*/
+    margin-bottom: 15px;         /*отступ справа от фото до текста*/
 }
 
 .portfolio-info {
     text-align: left;           /*текст рядом с фото*/
+    max-width: 300px;
+
 }
 
-.background {
-    background-color: #f0f0f0;  /*фон страницы*/
-    padding: 10px;
-    height: 100vh;              /*высота страницы*/
-}
-
-.content-container {
-    margin-left: 55%;           /*сместить весь контент немного слева*/
-    margin-top: 160px;           /*отступ сверху*/
-}
 
 h1, h2, p {
     font-style: italic;
@@ -105,7 +112,7 @@ h2 {
 
 p {
     font-size: 18;
-    color: #777;
+    color: #070606;
 }
 
 /* Стили для меню */
