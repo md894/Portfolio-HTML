@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* фон стр */
+    color: #070606; /* Цвет текст */
+    font-size: 16px; /* размер шрифта для всего текста */
+    padding: 0 10px; /* отступы справа и слева */
+}
+img {
+    max-width: 100%; /* ограничивает ширину изображения 100% от родительского контейнера */
+    height: auto; /* авто-высота для сохранения пропорций */
+    display: block; /* убирает пробелы снизу изображений */
+    margin: 0 auto; /* центрирует изображение */
+}
+strong {
+    font-size: 2.3em; /* Размер шрифта */
+    display: block; /* делаем его блочным элементом для центрирования */
+    text-align: center; /* центрируем текст */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* добавляем тень */
+    margin: 20px 0; /* отступы сверху и снизу для пространств */
+}
+
+i {
+    font-size: 1.2em; 
+}
+
+p {
+    font-size: 1em; 
+}
+
+b {
+    font-size: 1.2em; 
+}
